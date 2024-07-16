@@ -1,0 +1,22 @@
+h1, h2, p,div {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+body{
+    color: white;
+    background-color: black;
+}
+
+#countdown{
+    align-items: center;
+    font-size: 50px; 
+    font-weight: bolder;
+    padding-top: 17%;
+    background: rgb(255,103,31);
+    background: linear-gradient(90deg, orange 30%, white 50%, green 60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
